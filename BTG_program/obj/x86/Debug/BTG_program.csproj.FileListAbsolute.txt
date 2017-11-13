@@ -1,0 +1,64 @@
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Debug\BTG_program.pdb
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csproj.GenerateResource.Cache
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csprojResolveAssemblyReference.cache
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Debug\MediaInfoNET.dll
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program1\BTG_program\obj\x86\Debug\BTG_program.exe
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program1\BTG_program\obj\x86\Debug\BTG_program.pdb
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Debug\inTGrity.exe.manifest
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Debug\inTGrity.application
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Debug\inTGrity.exe
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Debug\inTGrity.pdb
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe.manifest
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\inTGrity.application
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Debug\inTGrity.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\inTGrity.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\inTGrity.exe.manifest
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\inTGrity.application
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\inTGrity.exe
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\inTGrity.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\BTG_program.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csprojResolveAssemblyReference.cache
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csproj.GenerateResource.Cache
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe.manifest
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\inTGrity.application
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\inTGrity.exe.config
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\MediaInfoNET.dll
+E:\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Debug\inTGrity.exe.config
+E:\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe
+E:\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Debug\inTGrity.pdb
+C:\Users\Damian\Music\BTG_program\BTG_program\bin\Debug\inTGrity.exe.config
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\inTGrity.pdb
+C:\Users\Damian\Music\BTG_program\BTG_program\bin\Debug\inTGrity.exe.manifest
+C:\Users\Damian\Music\BTG_program\BTG_program\bin\Debug\inTGrity.application
+C:\Users\Damian\Music\BTG_program\BTG_program\bin\Debug\inTGrity.exe
+C:\Users\Damian\Music\BTG_program\BTG_program\bin\Debug\inTGrity.pdb
+C:\Users\Damian\Music\BTG_program\BTG_program\bin\Debug\MediaInfoNET.dll
+C:\Users\Damian\Music\BTG_program\BTG_program\bin\Debug\BTG_program.pdb
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csprojResolveAssemblyReference.cache
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csproj.GenerateResource.Cache
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe.manifest
+C:\Users\Damian\Music\BTG_program\BTG_program\obj\x86\Debug\inTGrity.application
+G:\BTG_program\BTG_program\bin\Debug\inTGrity.exe.config
+G:\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe
+G:\BTG_program\BTG_program\obj\x86\Debug\inTGrity.pdb
+G:\BTG_program\BTG_program\bin\Debug\inTGrity.exe.manifest
+G:\BTG_program\BTG_program\bin\Debug\inTGrity.application
+G:\BTG_program\BTG_program\bin\Debug\inTGrity.exe
+G:\BTG_program\BTG_program\bin\Debug\MediaInfoNET.dll
+G:\BTG_program\BTG_program\bin\Debug\BTG_program.pdb
+G:\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csprojResolveAssemblyReference.cache
+G:\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+G:\BTG_program\BTG_program\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\BTG_program\BTG_program\obj\x86\Debug\BTG_program.csproj.GenerateResource.Cache
+G:\BTG_program\BTG_program\obj\x86\Debug\inTGrity.exe.manifest
+G:\BTG_program\BTG_program\obj\x86\Debug\inTGrity.application
+G:\BTG_program\BTG_program\bin\Debug\inTGrity.pdb

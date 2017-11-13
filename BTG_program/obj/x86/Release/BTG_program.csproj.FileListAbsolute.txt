@@ -1,0 +1,47 @@
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Release\BTG_program.exe
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Release\BTG_program.pdb
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Release\MediaInfoNET.dll
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\BTG_program.csprojResolveAssemblyReference.cache
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\BTG_program.csproj.GenerateResource.Cache
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Release\inTGrity.exe.manifest
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Release\inTGrity.application
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Release\inTGrity.exe
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\bin\Release\inTGrity.pdb
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\inTGrity.exe.manifest
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\inTGrity.application
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\inTGrity.exe
+C:\Users\damia_000\documents\visual studio 2010\Projects\BTG_program\BTG_program\obj\x86\Release\inTGrity.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\inTGrity.exe
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\inTGrity.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\inTGrity.exe.manifest
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\inTGrity.application
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\inTGrity.exe
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\inTGrity.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\BTG_program.exe
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\BTG_program.pdb
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\BTG_program.csproj.GenerateResource.Cache
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\inTGrity.exe.manifest
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\inTGrity.application
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\inTGrity.exe.config
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\obj\x86\Release\BTG_program.csprojResolveAssemblyReference.cache
+C:\Users\damia_000\Documents\Visual Studio 2010\Projects\BTG_program\BTG_program\BTG_program\bin\Release\MediaInfoNET.dll
+G:\BTG_program\BTG_program\bin\Release\inTGrity.exe.config
+G:\BTG_program\BTG_program\bin\Release\inTGrity.exe.manifest
+G:\BTG_program\BTG_program\bin\Release\inTGrity.application
+G:\BTG_program\BTG_program\bin\Release\inTGrity.exe
+G:\BTG_program\BTG_program\bin\Release\inTGrity.pdb
+G:\BTG_program\BTG_program\bin\Release\BTG_program.exe
+G:\BTG_program\BTG_program\bin\Release\MediaInfoNET.dll
+G:\BTG_program\BTG_program\bin\Release\BTG_program.pdb
+G:\BTG_program\BTG_program\obj\x86\Release\BTG_program.csprojResolveAssemblyReference.cache
+G:\BTG_program\BTG_program\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+G:\BTG_program\BTG_program\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+G:\BTG_program\BTG_program\obj\x86\Release\BTG_program.csproj.GenerateResource.Cache
+G:\BTG_program\BTG_program\obj\x86\Release\inTGrity.exe.manifest
+G:\BTG_program\BTG_program\obj\x86\Release\inTGrity.application
+G:\BTG_program\BTG_program\obj\x86\Release\inTGrity.exe
+G:\BTG_program\BTG_program\obj\x86\Release\inTGrity.pdb
