@@ -298,7 +298,8 @@ namespace WindowsFormsApplication1
             }
             else
             {
-                TG.first = pageHtml.IndexOf("gatunek:</th><td><ul class=\"inline sep-comma genresList\"><li><a href=\"/search/film?genreIds=") + 95;
+               //<a href="/films/search?genres=">  || <a href=\"/search/film?genreIds=   
+                TG.first = pageHtml.IndexOf("gatunek:</th><td><ul class=\"inline sep-comma genresList\"><li><a href=\"/films/search?genres=") + 94;
                // TG.last = pageHtml.IndexOf("</a>", TG.first);
                 TG.last = pageHtml.IndexOf("</ul>", TG.first);
             }
@@ -312,7 +313,7 @@ namespace WindowsFormsApplication1
                 
                 while (TG.FilmInfo[0].Contains("<a href="))
                 {
-                    TG.first = TG.FilmInfo[0].IndexOf("<a href=\"/search/film?genreIds=");
+                    TG.first = TG.FilmInfo[0].IndexOf("<a href=\"/films/search?genres=");
                     if (TG.first < 0) TG.first = TG.FilmInfo[0].IndexOf("<a href=\"/search/serial?genreIds=");
                     TG.last = TG.FilmInfo[0].IndexOf("\"", TG.first + 9);
                     if (TG.first >= 0) TG.FilmInfo[0] = TG.FilmInfo[0].Remove(TG.first, TG.last - TG.first + 1);
@@ -326,10 +327,10 @@ namespace WindowsFormsApplication1
             newTheard(textBox_Genres, TG.FilmInfo[0].Replace(">", ""));
             newTheard(progressBar_Two, 5);
             #region Country
-            newTheard(label33, "Checking production...");
+            newTheard(label33, "Checking production..."); 
             pageHtml = Encoding.UTF8.GetString(pageData);
-
-            TG.first = pageHtml.IndexOf("produkcja:</th><td><ul class=\"inline sep-comma\"><li><a href=\"/search/film?countryIds=") + 88;
+                                                                 //href=\"/search/film?countryIds || href="/films/search?countries="
+            TG.first = pageHtml.IndexOf("produkcja:</th><td><ul class=\"inline sep-comma\"><li><a href=\"/films/search?countries=") + 88;
             TG.last = pageHtml.IndexOf("</a></li></ul></td></tr><tr><th>premiera:");
 
             if (TG.last < 0) TG.last = pageHtml.IndexOf("</a></li></ul></td></tr></table></div><script type=\"text/javascript\">var");
@@ -408,7 +409,7 @@ namespace WindowsFormsApplication1
             pageHtml = Encoding.UTF8.GetString(pageData);
 
             TG.first = pageHtml.IndexOf("scenariusz:</th><td><ul class=\"inline sep-comma\">") + 49;
-            TG.last = pageHtml.IndexOf("</a></li></ul></td></tr>", TG.first);
+            TG.last = pageHtml.IndexOf("<a class=\"space-left", TG.first);//  </a></li></ul></td></tr>
 
             if (TG.last - TG.first > 0) TG.FilmInfo[4] = pageHtml.Substring(TG.first, TG.last - TG.first);
 
@@ -421,7 +422,7 @@ namespace WindowsFormsApplication1
                     if (TG.last - TG.first > 0)
                     {
                         TG.FilmInfo[4] = TG.FilmInfo[4].Remove(TG.first, TG.last - TG.first + 2);
-                        TG.FilmInfo[4] = TG.FilmInfo[4].Replace("</a>", ", ").Replace("</li>", "").Replace("&egrave;", "é").Replace("&eacute;", "é");
+                        TG.FilmInfo[4] = TG.FilmInfo[4].Replace("</a>", ", ").Replace("</li>", "").Replace("&egrave;", "é").Replace("&eacute;", "é").Replace(", </ul>", "");
                     }
                     else
                     {

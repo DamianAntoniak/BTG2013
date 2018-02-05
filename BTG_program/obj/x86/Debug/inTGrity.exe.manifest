@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="inTGrity.exe" size="208896">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="inTGrity.exe" size="208784">
       <assemblyIdentity name="inTGrity" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>BtYDTVh6YtLYpNMT03hnXXghgD4=</dsig:DigestValue>
+        <dsig:DigestValue>WjpY+4fTKagpj0ow63fyivBdqkI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>hsdC2BU/HAVpgQmrGG/dBi0P1+s=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="inTGrity.exe.config" size="159">
+  <file name="inTGrity.exe.config" size="156">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>1MarUy3RuVvHLdw5ozZo3o7j39I=</dsig:DigestValue>
+      <dsig:DigestValue>gAftHgJfZ11tP1tfk9QhPLIvO0k=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MediaInfo.dll" size="4482608">
