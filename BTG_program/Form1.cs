@@ -385,9 +385,9 @@ namespace WindowsFormsApplication1
             #region Director
             //pageHtml = Encoding.UTF8.GetString(pageData);
             newTheard(label33, "Downloading directors...");
-            TG.first = pageHtml.IndexOf("reżyseria:</th><td><ul class=\"inline sep-comma\"><li><") + 54;
-            TG.last = pageHtml.IndexOf("</li></ul></td></tr><tr><th>scenariusz:");
-
+            TG.first = pageHtml.IndexOf("reżyseria:</th><td><ul class=\"inline sep-comma\">") + 49;
+            TG.last = pageHtml.IndexOf("</td></tr><tr><th>scenariusz:");
+            /*
             if (TG.last - TG.first > 0)
             {
                 TG.FilmInfo[3] = pageHtml.Substring(TG.first, TG.last - TG.first);
@@ -398,7 +398,35 @@ namespace WindowsFormsApplication1
                 //TG.last = TG.FilmInfo[3].IndexOf("</a>");
                 TG.FilmInfo[3] = TG.FilmInfo[3].Substring(TG.first, TG.last - TG.first).Replace("&aacute;", "á").Replace("&eacute;", "é");
                
+            }*/
+
+
+
+
+            if (TG.last - TG.first > 0) TG.FilmInfo[3] = pageHtml.Substring(TG.first, TG.last - TG.first);
+            else TG.FilmInfo[3] = " ";
+
+       
+            string str = "";
+            int wax_j = 0;
+            while (TG.FilmInfo[3].Contains("name\">"))
+            {
+                TG.first = TG.FilmInfo[3].IndexOf("name\">") + 6;
+                TG.last = TG.FilmInfo[3].IndexOf("</a>", TG.first);
+                if (wax_j == 1) str += ", ";
+                str += TG.FilmInfo[3].Substring(TG.first, TG.last - TG.first);
+                TG.FilmInfo[3] = TG.FilmInfo[3].Remove(0, TG.last);
+                wax_j++;
+
             }
+            TG.FilmInfo[3] = str;
+
+
+
+
+           // TG.FilmInfo[3] = test;
+
+
             #endregion
             //TG.FilmInfo[3] = "Reżyseria..........: " + TG.FilmInfo[3];
             newTheard(textBox_Director, TG.FilmInfo[3]);
@@ -412,6 +440,11 @@ namespace WindowsFormsApplication1
             TG.last = pageHtml.IndexOf("<a class=\"space-left", TG.first);//  </a></li></ul></td></tr>
 
             if (TG.last - TG.first > 0) TG.FilmInfo[4] = pageHtml.Substring(TG.first, TG.last - TG.first);
+            else
+            {
+                TG.last = pageHtml.IndexOf("</a></li></ul></td></tr>", TG.first);
+                if (TG.last - TG.first > 0) TG.FilmInfo[4] = pageHtml.Substring(TG.first, TG.last - TG.first);
+            }
 
             if (TG.FilmInfo[4].Contains("<li><a href=\"/person"))
             {

@@ -8,14 +8,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="inTGrity.exe.manifest" size="4647">
+    <dependentAssembly dependencyType="install" codebase="inTGrity.exe.manifest" size="5829">
       <assemblyIdentity name="inTGrity.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>k1jB6yIXnxJcplaTOa0p3IvN400=</dsig:DigestValue>
+        <dsig:DigestValue>1pNFhNUH40MBpDrChP3cK5+S+B0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
