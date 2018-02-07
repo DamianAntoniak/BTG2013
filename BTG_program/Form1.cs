@@ -672,8 +672,10 @@ namespace WindowsFormsApplication1
             TG.last = pageHtml.IndexOf(")", TG.first);
             // TG.last = pageHtml.IndexOf(")", TG.first);
             string text = pageHtml.Substring(TG.first, TG.last - TG.first);
+            Console.WriteLine(text);
             
-            int number = Convert.ToInt32(text);
+            int.TryParse(text, out int number);
+
             newTheard(progressBar_Two, 1);
             if (number >= 1)
             {
@@ -1516,7 +1518,7 @@ namespace WindowsFormsApplication1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            DownloadUpdate();
+            //DownloadUpdate();
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
