@@ -911,6 +911,7 @@
             this.textBox_VideoCodec.Name = "textBox_VideoCodec";
             this.textBox_VideoCodec.Size = new System.Drawing.Size(154, 20);
             this.textBox_VideoCodec.TabIndex = 4;
+            this.textBox_VideoCodec.TextChanged += new System.EventHandler(this.textBox_VideoCodec_TextChanged);
             // 
             // textBox_Name
             // 

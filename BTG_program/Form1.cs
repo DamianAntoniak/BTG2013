@@ -355,7 +355,7 @@ namespace WindowsFormsApplication1
             newTheard(label33, "Download release date...");
             pageHtml = Encoding.UTF8.GetString(pageData);
 
-            TG.first = pageHtml.IndexOf("<tr><th>premiera:</th><td>") + 26;
+            TG.first = pageHtml.IndexOf("<tr><th>premiera:</th><td>") + 27;
             TG.last = pageHtml.IndexOf("</a></td></tr><tr><th>boxoffice:");
             
             if (TG.last < 0) TG.last = pageHtml.IndexOf("</a></td></tr></table></div><script type=\"text/javascript\">var");
@@ -365,8 +365,9 @@ namespace WindowsFormsApplication1
             {
                 TG.FilmInfo[2] = pageHtml.Substring(TG.first, TG.last - TG.first);
 
-                TG.first = TG.FilmInfo[2].IndexOf("<a href");
+                TG.first = TG.FilmInfo[2].IndexOf("a href");
                 TG.last = TG.FilmInfo[2].IndexOf("\">");
+                
                 TG.FilmInfo[2] = TG.FilmInfo[2].Remove(TG.first, TG.last - TG.first + 2);
 
                 while (TG.FilmInfo[2].Contains("<span "))
@@ -679,6 +680,7 @@ namespace WindowsFormsApplication1
             newTheard(progressBar_Two, 1);
             if (number >= 1)
             {
+                
                 newTheard(label33, "Downloading more the posters...");
                 //TG.first = pageHtml.IndexOf("</script><script type=\"text/javascript\">fw.loadOnClick(Sizzle") + 61;
                 TG.first = pageHtml.IndexOf("<h2 class=\"inline\">plakaty</h2>") + 31;
@@ -686,15 +688,18 @@ namespace WindowsFormsApplication1
                 TG.last = pageHtml.IndexOf("</div></div></li></ul><script type=\"text/javascript\"");
 
                 pageHtml = pageHtml.Substring(TG.first, TG.last - TG.first);
+                Console.WriteLine("test: " + pageHtml);
                 int lastFirst = 0, lastLast = 0;
                 #region posters find & download
                 int h = 0;
-                while (pageHtml.IndexOf("http://1.fwcdn.pl/po") > -1)
+                // while (pageHtml.IndexOf("http://1.fwcdn.pl/po") > -1)ssl-gfx.filmweb.pl
+                 while (pageHtml.IndexOf("https://ssl-gfx.filmweb.pl/po") > -1)
                 {
                     newTheard(label33, "editing poster #" + h.ToString() + " ...");
-                    TG.first = pageHtml.IndexOf("http://1.fwcdn.pl/po", lastFirst);
+                    TG.first = pageHtml.IndexOf("https://ssl-gfx.filmweb.pl/po", lastFirst);
                     TG.last = pageHtml.IndexOf(".jpg\"", lastLast);
                     string g = pageHtml.Substring(TG.first, TG.last - TG.first + 4);
+                    Console.WriteLine("page::: " + g);
                     pageHtml = pageHtml.Remove(TG.first, TG.last - TG.first + 5);
 
                     if (g[g.Length - 5] == '3') url.Add(g);
@@ -709,11 +714,11 @@ namespace WindowsFormsApplication1
 
                 #endregion
                 newTheard(progressBar_Two, 20);
-
+                Console.WriteLine("urlcount: " + url.Count);
                 for (int i = 0; i < url.Count; i++)
                 {
                     newTheard(label33, "Cutting poster #" + i.ToString() + " ...");
-
+                    
                     Stream read = client.OpenRead(url[i]);
                     PostersHTML.Add(new Bitmap(read));
                     PostersHosting.Add(PostersHTML[i]);
@@ -733,7 +738,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox_FilmWeb.Text != "")//WEJSCIE: http://www.filmweb.pl/film/Pompeje-2014-643796
+            if (textBox_FilmWeb.Text != "")//input: http://www.filmweb.pl/film/Pompeje-2014-643796
             {
                 //button2.Enabled = false;
                 if (textBox_FilmWeb.Text.Contains("serial"))
@@ -891,7 +896,6 @@ namespace WindowsFormsApplication1
 
             FileStream save = new FileStream(textBox2.Text, FileMode.Create);
             Encoding enc = Encoding.GetEncoding(437);
-
             
             StreamWriter save2 = new StreamWriter(save, enc);
             save2.Write(TG.NFO[0] + TG.Code.Replace("[/pre]", "").Replace("[b]", "").Replace("[/b]", "") + TG.NFO[1]);
@@ -957,7 +961,7 @@ namespace WindowsFormsApplication1
 
 
             TG.VideoCodec = n.Get(StreamKind.Video, 0, "Format");
-            if (TG.VideoCodec == "MPEG-4 Visual") TG.VideoCodec = "MPEG-4";
+            if (TG.VideoCodec == "MPEG-4 Visual") TG.VideoCodec = "XviD MPEG-4";
             else TG.VideoCodec = "x264";
             textBox_VideoCodec.Text = TG.VideoCodec;
 
@@ -1581,6 +1585,9 @@ namespace WindowsFormsApplication1
 
         }
 
-       
+        private void textBox_VideoCodec_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
